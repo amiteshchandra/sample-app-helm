@@ -4,7 +4,7 @@
 replicaCount: 1
 image:
   pullPolicy: IfNotPresent
-  repository: docker.io/library/spring-helloworld
+  repository: ls-docker.repo.clarivate.io/spring-boot-example
   tag: latest
 service:
   name: java
@@ -14,7 +14,7 @@ service:
 resources:
   limits:
     cpu: 100m
-    memory: 128Mi
+    memory: 256Mi
   requests:
     cpu: 100m
     memory: 128Mi
