@@ -14,9 +14,9 @@ service:
 resources:
   limits:
     cpu: 100m
-    memory: 256mi
+    memory: 128mi
   requests:
     cpu: 100m
-    memory: 64Mi
+    memory: 128mi
 ingress:
   enabled: false
