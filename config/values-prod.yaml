@@ -5,7 +5,7 @@ replicaCount: 2
 image:
   pullPolicy: IfNotPresent
   repository: ls-docker.repo.clarivate.io/spring-boot-example
-  tag: latest
+  tag: stable
 service:
   name: java
   type: ClusterIP
